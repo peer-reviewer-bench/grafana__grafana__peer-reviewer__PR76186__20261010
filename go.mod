@@ -125,7 +125,7 @@ require (
 	gopkg.in/mail.v2 v2.3.1 // @grafana/backend-platform
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // @grafana/alerting-squad-backend
-	xorm.io/builder v0.3.6 // @grafana/backend-platform
+	xorm.io/builder v0.3.6 // indirect; @grafana/backend-platform
 	xorm.io/core v0.7.3 // @grafana/backend-platform
 	xorm.io/xorm v0.8.2 // @grafana/alerting-squad-backend
 )
@@ -177,7 +177,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.1-0.20191002090509-6af20e3a5340 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
-	github.com/hashicorp/go-multierror v1.1.1 // @grafana/grafana-as-code
+	github.com/hashicorp/go-multierror v1.1.1 // indirect; @grafana/grafana-as-code
 	github.com/hashicorp/go-sockaddr v1.0.2 // indirect
 	github.com/hashicorp/golang-lru v0.6.0 // indirect
 	github.com/hashicorp/yamux v0.1.1 // indirect
@@ -242,7 +242,6 @@ require (
 	github.com/google/go-github/v45 v45.2.0 // @grafana/grafana-delivery
 	github.com/grafana/codejen v0.0.3 // @grafana/dataviz-squad
 	github.com/grafana/dskit v0.0.0-20230706162620-5081d8ed53e6 // @grafana/backend-platform
-	github.com/grafana/phlare/api v0.1.4-0.20230426005640-f90edba05413 // @grafana/observability-traces-and-profiling
 	github.com/huandu/xstrings v1.3.1 // @grafana/partner-datasources
 	github.com/jmoiron/sqlx v1.3.5 // @grafana/backend-platform
 	github.com/matryer/is v1.4.0 // @grafana/grafana-as-code
@@ -258,7 +257,7 @@ require (
 	buf.build/gen/go/parca-dev/parca/bufbuild/connect-go v1.4.1-20221222094228-8b1d3d0f62e6.1 // @grafana/observability-traces-and-profiling
 	buf.build/gen/go/parca-dev/parca/protocolbuffers/go v1.28.1-20221222094228-8b1d3d0f62e6.4 // @grafana/observability-traces-and-profiling
 	github.com/Masterminds/semver/v3 v3.1.1 // @grafana/grafana-delivery
-	github.com/alicebob/miniredis/v2 v2.30.1 // @grafana/alerting-squad-backend
+	github.com/alicebob/miniredis/v2 v2.39.0 // @grafana/alerting-squad-backend
 	github.com/dave/dst v0.27.2 // @grafana/grafana-as-code
 	github.com/go-jose/go-jose/v3 v3.0.0 // @grafana/backend-platform
 	github.com/grafana/dataplane/examples v0.0.1 // @grafana/observability-metrics
@@ -289,6 +288,8 @@ require (
 
 require github.com/grafana/gofpdf v0.0.0-20231002120153-857cc45be447 // @grafana/sharing-squad
 
+require github.com/grafana/pyroscope/api v0.2.0
+
 require (
 	cloud.google.com/go v0.110.6 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
@@ -297,7 +298,6 @@ require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/agext/levenshtein v1.2.1 // indirect
-	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/apache/arrow/go/v13 v13.0.0 // indirect
 	github.com/apache/thrift v0.18.1 // indirect
@@ -342,7 +342,6 @@ require (
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/s2a-go v0.1.4 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
-	github.com/grafana/pyroscope/api v0.2.0 // indirect
 	github.com/grafana/regexp v0.0.0-20221123153739-15dc172cd2db // indirect
 	github.com/grafana/sqlds/v2 v2.3.10 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
@@ -398,7 +397,7 @@ require (
 	github.com/unknwon/log v0.0.0-20150304194804-e617c87089d3 // indirect
 	github.com/weaveworks/promrus v1.2.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	github.com/yuin/gopher-lua v1.1.0 // indirect
+	github.com/yuin/gopher-lua v1.1.1 // indirect
 	github.com/zclconf/go-cty v1.13.0 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.7 // indirect
